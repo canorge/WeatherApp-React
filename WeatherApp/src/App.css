@@ -1,0 +1,127 @@
+body{
+    background: linear-gradient(to left, #2bc0e4, #eaecc6); 
+    color: #707070;
+}
+
+
+.futureDays {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* .futureDaysItem {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .futureDaysItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .futureDaysItem h3 {
+    font-size: 14px;
+    color: #ddd; 
+    color:whitesmoke;
+    margin-bottom: 10px;
+  }
+  
+  .futureDaysItem img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .futureDaysItem span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .futureDaysItem div {
+    margin-top: 10px;
+  }
+  
+  .futureDaysItem h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  .futureDaysItem p {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .futureDaysItem span[style*="rotate"] {
+    font-size: 24px;
+    display: block;
+    margin: 5px auto;
+  } */
+  .futureDaysItem {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 320px;  /* Daha küçük */
+    height: 350px;
+    margin: 5px;
+  }
+  
+  .futureDaysItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .futureDaysItem img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    min-width: 85px;  /* Daha dar */
+    min-height: 90px;
+    margin: 2px;
+  }
+  
+  .weather-box h5 {
+    margin: 0;
+    font-size: 18px; /* Küçültüldü */
+    font-weight: bold;
+  }
+  
+  .weather-box span {
+    font-size: 14px; /* Küçültüldü */
+    color:cadetblue;
+  }
+  
